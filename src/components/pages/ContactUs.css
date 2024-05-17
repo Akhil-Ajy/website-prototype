@@ -3,6 +3,9 @@
     background-size: cover;
     background-position: center;
     padding: 50px;
+    overflow: hidden;
+    margin-top: 70px;
+    height: 200%;
 }
 
 .contactus-container {
