@@ -1,3 +1,15 @@
+.building-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.inner-component{
+    display: block;
+}
+
 .innerimage{
     width: 10px;
 }
+
