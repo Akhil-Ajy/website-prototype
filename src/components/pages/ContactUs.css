@@ -41,6 +41,11 @@
     padding-right: 20px;
 }
 
+.contactus-form input[type="message"] {
+    width: 100px; 
+    height: 100px;
+}
+
 .contactus-details {
     padding-left: 20px;
 }
@@ -48,7 +53,7 @@
 .contactus-form input[type="text"],
 .contactus-form input[type="email"],
 .contactus-form input[type="tel"],
-.contactus-form input[type="text"],
+.contactus-form input[type="message"],
 .contactus-form button {
     width: 100%;
     padding: 12px;

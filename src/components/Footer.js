@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+  const [email, setEmail] = useState('');
+
+  const handleInputChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubscribe = () => {
+    // Add your subscription logic here
+    // For now, let's just clear the email field
+    setEmail('');
+    alert("Subscribe Request Sent Over")
+  };
+
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -13,15 +26,17 @@ function Footer() {
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
-        <div className='input-areas'>
+        <div className='input-areas' >
           <form>
             <input
               className='footer-input'
               name='email'
               type='email'
               placeholder='Your Email'
+              value={email}
+              onChange={handleInputChange}
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline' onClick={handleSubscribe}>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -30,7 +45,6 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               ATOM
-              <i class="fa-solid fa-atom"></i>
             </Link>
           </div>
           <div class='social-icons'>
@@ -41,9 +55,10 @@ function Footer() {
               aria-label='Facebook'
             >
               <div className='footer-text'>
-              <i class="fa-regular fa-copyright" >
-                Atom<br/> Engineers and Builders</i>
-                </div>
+                <i class="fa-regular fa-copyright">
+                  Atom<br/> Engineers and Builders
+                </i>
+              </div>
             </Link>
           </div>
         </div>

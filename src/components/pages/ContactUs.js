@@ -21,6 +21,7 @@ export default function ContactUs(){
         (error) => {
           console.log('FAILED...', error.text);
         },
+        alert("Email Sent To Client")
       );
   };
     return (
@@ -34,7 +35,7 @@ export default function ContactUs(){
                 <input type='text' placeholder="name" name="user_name" ></input>
                 <input type='email' placeholder="email" name="user_email"></input>
                 <input type='tel' placeholder="phone number" name="user_phone"></input>
-                <input type="text" placeholder="message" name="message"></input>
+                <input type="message" placeholder="message" name="message"></input>
                 <button type='submit' value= "Send">Submit</button>
             </div>
             <div className="contactus-details">
