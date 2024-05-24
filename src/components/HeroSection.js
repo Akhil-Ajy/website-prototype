@@ -23,10 +23,10 @@ function HeroSection() {
         </ScrollLink>
         <Button
           className='btns'
-          buttonStyle='btn--primary'
+          buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Contact Us <i className='far fa-play-circle' />
+          Contact Us
         </Button>
       </div>
     </div>

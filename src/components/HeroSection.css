@@ -8,12 +8,15 @@
 
   }
   .btns{
-    width: 100px;
-    height: 100px;
-    padding: 12px;
-    font-size: large;
-    color: white;
-    border: solid;
+    background-color: transparent;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius:2px ;
   }
 
   .btns:hover{
