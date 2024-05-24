@@ -9,19 +9,19 @@
   }
   .btns{
     background-color: transparent;
-    color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
     border-radius:2px ;
+    font-size: large;
   }
 
   .btns:hover{
     background-color: white;
-    color: black;
   }
   
   .hero-container {
@@ -60,6 +60,12 @@
   .fa-play-circle {
     margin-left: 4px;
   }
+
+  .Main-Text, .Under-Text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px black;
+}
   
   @media screen and (max-width: 960px) {
     .hero-container > h1 {

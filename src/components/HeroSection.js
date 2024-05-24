@@ -9,8 +9,8 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src={Video} className='video' autoPlay loop muted />
-      <h1>Engineer & Builders</h1>
-      <p>Defence Contract</p>
+      <h1 className='Main-Text'>Engineer & Builders</h1>
+      <p className='Under-Text'>Defence Contract</p>
       <div className='hero-btns'>
         <ScrollLink
           to='portfolios'

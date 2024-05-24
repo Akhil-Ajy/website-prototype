@@ -11,12 +11,14 @@ import Details_Condominium from './components/pages/Detail_Condominium';
 import Details_Row from './components/pages/Details_Row';
 import Footer from './components/Footer';
 import About from './components/pages/About';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
         <Navbar/>
+        <ScrollToTop/>
         <Routes>
           <Route path='/' exact Component = {Home}/>
           <Route path='/About' exact Component={About}/>

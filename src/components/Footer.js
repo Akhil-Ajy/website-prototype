@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   const [email, setEmail] = useState('');
-
+  
   const handleInputChange = (event) => {
     setEmail(event.target.value);
   };
@@ -43,8 +43,11 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              ATOM
+            <Link to='/About' className='Footer-pages'>
+              About <i class="fa-solid fa-chevron-right"></i>
+            </Link>
+            <Link to='/ContactUs' className='Footer-pages'>
+              Contact-Us <i class="fa-solid fa-chevron-right"></i>
             </Link>
           </div>
           <div class='social-icons'>
