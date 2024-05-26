@@ -1,12 +1,12 @@
 .cards {
     padding: 4rem;
-    background: linear-gradient(90deg, black 0%, #79070d 80%);
-
-  }
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 50%, rgba(14,14,14,1) 100%);  }
   
   h1 {
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 4px black;
   }
   
   .cards__container {
@@ -92,11 +92,12 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 10px 10px;
   }
   
   .cards__item__text {
-    color: #fff;
+    color: black;
+    font-weight:400;
     font-size: 18px;
     line-height: 24px;
   }

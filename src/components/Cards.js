@@ -25,7 +25,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpeg'
-              text='ATOM Construction have the best constructors in Bangalore known for their well-planned and budget friendly apartment project with modern amenities.'
+              text='ATOM constructors in Bangalore is known for their well-planned and budget friendly apartment project with modern amenities.'
               label='Apartment'
               path='/Details_Apartment'
             />

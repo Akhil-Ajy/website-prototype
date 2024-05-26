@@ -22,6 +22,7 @@
 
   .btns:hover{
     background-color: white;
+    color: black;
   }
   
   .hero-container {
@@ -62,8 +63,8 @@
   }
 
   .Main-Text, .Under-Text {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100;
     text-shadow: 2px 2px 4px black;
 }
   
