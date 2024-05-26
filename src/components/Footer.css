@@ -1,6 +1,7 @@
 .footer-container {
   background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 60%, rgba(14,14,14,1) 100%);    display: flex;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 60%, rgba(14,14,14,1) 100%);    
+  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,7 +24,7 @@
   }
 
   .Footer-pages:hover{
-    color: #79070d;
+    color: black;
   }
 
   .footer-text{

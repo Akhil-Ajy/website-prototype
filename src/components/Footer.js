@@ -11,11 +11,14 @@ function Footer() {
   };
 
   const handleSubscribe = () => {
-    // Add your subscription logic here
-    // For now, let's just clear the email field
-    setEmail('');
-    alert("Subscribe Request Sent Over")
+    if (email.trim() !== '') {
+      setEmail('');
+      alert("Subscribe Request Sent Over");
+    } else {
+      alert("Enter your email");
+    }
   };
+  
 
   return (
     <div className='footer-container'>
