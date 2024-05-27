@@ -10,8 +10,8 @@ export default function ContactUs(){
     e.preventDefault();
 
     emailjs
-      .sendForm('service_l9e5wir', 'template_06ipigi', form.current, {
-        publicKey: 'SxssFq70kGHUsklj0',
+      .sendForm('service_yawh7op', 'template_cv8m1m9', form.current, {
+        publicKey: 'elR8hoXdU_jRPDmqp',
       })
       .then(
         () => {
